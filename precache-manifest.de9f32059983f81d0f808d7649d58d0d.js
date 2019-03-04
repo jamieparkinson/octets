@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "f1a4a058fbba1e35a406188ae7eddaf8",
-    "url": "/octets/static/media/lato-latin-400.f1a4a058.woff2"
+    "revision": "62fb51e9e645f63599238881b9de15dd",
+    "url": "/octets/static/media/lato-latin-400.62fb51e9.woff"
   },
   {
     "revision": "0d5e05e95cdd757ec761",
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/octets/static/media/lato-latin-900italic.e792d6c6.woff"
   },
   {
-    "revision": "fd67cf72cde7716bdadf8a3992b37fa2",
-    "url": "/octets/static/media/lato-latin-900italic.fd67cf72.woff2"
+    "revision": "d79dd0661ba130ec7a7e7c060fcb7e09",
+    "url": "/octets/static/media/lato-latin-900.d79dd066.woff"
   },
   {
     "revision": "f8028e61362a54aa64dcb26e8063d0d7",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/octets/static/media/lato-latin-100italic.ef884f11.woff2"
   },
   {
-    "revision": "6ea8380326f67e10380953b188d96a2b",
-    "url": "/octets/static/media/lato-latin-100italic.6ea83803.woff"
-  },
-  {
     "revision": "bbbd26aeee9c5b967e35933bce02d358",
     "url": "/octets/static/media/lato-latin-300.bbbd26ae.woff2"
+  },
+  {
+    "revision": "6ea8380326f67e10380953b188d96a2b",
+    "url": "/octets/static/media/lato-latin-100italic.6ea83803.woff"
   },
   {
     "revision": "ba2452bdc790a4fee05202eac3c092b3",
@@ -52,16 +52,16 @@ self.__precacheManifest = [
     "url": "/octets/static/js/runtime~main.9c3aaca4.js"
   },
   {
-    "revision": "62fb51e9e645f63599238881b9de15dd",
-    "url": "/octets/static/media/lato-latin-400.62fb51e9.woff"
-  },
-  {
-    "revision": "c4082958a18f04bd32a3d3e1f5e390a5",
-    "url": "/octets/static/media/lato-latin-400italic.c4082958.woff"
+    "revision": "f1a4a058fbba1e35a406188ae7eddaf8",
+    "url": "/octets/static/media/lato-latin-400.f1a4a058.woff2"
   },
   {
     "revision": "b45e52f342dc29c8553f51a99f924871",
     "url": "/octets/static/media/lato-latin-400italic.b45e52f3.woff2"
+  },
+  {
+    "revision": "c4082958a18f04bd32a3d3e1f5e390a5",
+    "url": "/octets/static/media/lato-latin-400italic.c4082958.woff"
   },
   {
     "revision": "7fbbfd1610770d594aef639cfefdd0b0",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/octets/static/media/lato-latin-900.f2de2c6e.woff2"
   },
   {
-    "revision": "d79dd0661ba130ec7a7e7c060fcb7e09",
-    "url": "/octets/static/media/lato-latin-900.d79dd066.woff"
+    "revision": "fd67cf72cde7716bdadf8a3992b37fa2",
+    "url": "/octets/static/media/lato-latin-900italic.fd67cf72.woff2"
   },
   {
     "revision": "37ba8d2f98c487293904",
