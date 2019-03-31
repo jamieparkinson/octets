@@ -31,7 +31,7 @@ const Title = styled.h4`
 
 const createValueParser = (setValue, radix) => {
   return x => {
-    const v = Math.min(parseInt(x, radix), 0xFF);
+    const v = parseInt(x, radix);
     return setValue(isNaN(v) ? '' : v);
   }
 };
