@@ -28,4 +28,4 @@ const styledApp = (
 
 
 ReactDOM.render(styledApp, document.getElementById('root'));
-registerSW();
+registerSW(null);

@@ -39,7 +39,14 @@ const InputWrapper = styled.div`
   width: 100%;
 `;
 
-const PrettyInput = ({ value, onChange = Function.prototype, placeholder = "", label = "" }) => (
+interface Props {
+  value: string
+  onChange: (s: string) => void;
+  placeholder: string;
+  label: string;
+}
+
+const PrettyInput: React.FC<Props> = ({ value, onChange = Function.prototype, placeholder = "", label = "" }) => (
   <InputWrapper>
     <StyledLabel>{label}</StyledLabel>
     <StyledInput

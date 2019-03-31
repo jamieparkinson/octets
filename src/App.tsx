@@ -29,14 +29,16 @@ const Title = styled.h4`
   color: rgb(30, 30, 30);
 `;
 
-const createValueParser = (setValue, radix) => {
-  return x => {
+type ValueType = number | '';
+
+const createValueParser = (setValue: (n: ValueType) => void, radix: number) => {
+  return (x: string): void => {
     const v = parseInt(x, radix);
-    return setValue(isNaN(v) ? '' : v);
+    setValue(isNaN(v) ? '' : v);
   }
 };
 
-const formatValue = (value, radix, length) => {
+const formatValue = (value: ValueType, radix: number, length: number): string => {
   const str = value.toString(radix);
   if (str !== '') {
     return str.padStart(length, '0');
@@ -44,8 +46,8 @@ const formatValue = (value, radix, length) => {
   return '';
 };
 
-const App = () => {
-  const [ value, setValue ] = useState('');
+const App: React.FC = () => {
+  const [ value, setValue ] = useState<ValueType>('');
   return (
     <AppWrapper>
       <ContentBox>
@@ -71,6 +73,6 @@ const App = () => {
       </ContentBox>
     </AppWrapper>
   );
-}
+};
 
 export default App;
